@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #10171f;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    margin: 0; 
+}
+h1 {
+    color: snow;
+}
+.btn {
+    background-color:#548bf0;
+    border-radius: 5px;
+    border: none;
+    color:#e8e8e8;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.3rem;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out
+}
+
+.btn:active {
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 5px 5px 20px #e8e8e8;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
